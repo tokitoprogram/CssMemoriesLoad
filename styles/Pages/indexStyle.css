@@ -1,0 +1,32 @@
+.header {
+    position: fixed;
+    top: 0;
+    width: calc(100% - 120px);
+    z-index: 1000;
+    /*padding-inline: 60px;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+}
+
+.header .right {
+    display: flex;
+    color: var(--white);
+
+    & > li {
+        padding-block: 32px;
+        padding-inline: 24px;
+    }
+    & > li:last-child {
+        background-color: var(--purple);
+    }
+}
+
+/* main */
+
+section.banner {
+    height: 1vh;
+}

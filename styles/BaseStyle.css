@@ -1,0 +1,97 @@
+@font-face {
+    font-family: "Sen-Bold";
+    src: url(/assets/fonts/Sen-Bold.woff2);
+    font-weight: 700;
+}
+@font-face {
+    font-family: "Sen-ExtraBold";
+    src: url(/assets/fonts/Sen-ExtraBold.woff2);
+    font-weight: 800;
+}
+@font-face {
+    font-family: "Sen-Medium";
+    src: url(/assets/fonts/Sen-Medium.woff2);
+    font-weight: 500;
+}
+@font-face {
+    font-family: "Sen-SemiBold";
+    src: url(/assets/fonts/Sen-SemiBold.woff2);
+    font-weight: 500;
+}
+@font-face {
+    font-family: "Sen";
+    src: url(/assets/fonts/Sen-Regular.woff2);
+    font-weight: 400;
+}
+@font-face {
+    font-family: "Bahnschrift";
+    src: url(/assets/fonts/Bahnschrift.woff2);
+}
+.sen-bold {
+    font-family: "Sen-Bold";
+}
+.sen {
+    font-family: "Sen";
+}
+.sen-semibold {
+    font-family: "Sen-SemiBold";
+}
+.sen-extrabold {
+    font-family: "Sen-ExtraBold";
+}
+.sen-medium {
+    font-family: "Sen-Medium";
+}
+.bahnschrift {
+    font-family: "Bahnschrift";
+}
+:root {
+    --font-family: "Sen", sans-serif;
+
+    --second-family: "Bahnschrift", sans-serif;
+
+    --black: #000;
+    --level-1: #181823;
+    --white: #fff;
+    --purple: #5221e6;
+    --light-grey: #8491a0;
+    --dark-grey: #5b6876;
+    --green-accent: #3cc74e;
+    --blue-accent: #609bff;
+    --pink-accent: #e95d90;
+    --peach-accent: #fff3e4;
+    --violet-accent: #fbe4ff;
+}
+
+.fs-117 {
+    font-size: 117px;
+}
+.fs-78 {
+    font-size: 78px;
+}
+.fs-56 {
+    font-size: 56px;
+}
+.fs-55 {
+    font-size: 55px;
+}
+.fs-32 {
+    font-size: 32px;
+}
+.fs-24 {
+    font-size: 24px;
+}
+.fs-18 {
+    font-size: 18px;
+}
+.fs-16 {
+    font-size: 16px;
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+}

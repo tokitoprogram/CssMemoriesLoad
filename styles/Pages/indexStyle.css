@@ -48,7 +48,7 @@ section.banner .container {
     & > img {
         position: absolute;
         top: 50%;
-        transform: translate(0, -50%);
+        transform: translate(0, -40%);
         left: 0;
         max-width: calc(750 / 1440 * 100vw);
         height: auto;
@@ -59,7 +59,7 @@ section.banner .container {
         z-index: 1;
         right: 2vw;
         top: 50%;
-        transform: translate(0, -50%);
+        transform: translate(0, -40%);
         max-width: calc(740 / 1440 * 100vw);
         & > p {
             color: var(--white);
@@ -70,5 +70,49 @@ section.banner .container {
         & > .text > span {
             color: #8a8a90;
         }
+    }
+}
+
+section.word-experience {
+    padding: 40px 60px;
+    background-color: var(--black);
+
+    & > p {
+        color: var(--light-grey);
+        padding-bottom: 10px;
+    }
+    & > .flex {
+        padding-top: 60px;
+        justify-content: space-between;
+        align-items: center;
+        column-gap: 60px;
+    }
+    & > .flex > .card {
+        display: flex;
+        flex-direction: column;
+        row-gap: 8px;
+        color: white;
+    }
+    & > .flex > .card > div.fs-16 {
+        color: var(--light-grey);
+    }
+    & > h4 {
+        color: var(--white);
+        max-width: 690px;
+        text-align: justify;
+    }
+    & > .flex .card .fs-117 {
+        color: var(--light-grey);
+    }
+    & > .flex > .card:first-child > div > span {
+        color: var(--green-accent);
+    }
+
+    & > .flex > .card:nth-child(2) > div > span {
+        color: var(--blue-accent);
+    }
+
+    & > .flex > .card:last-child > div > span {
+        color: var(--pink-accent);
     }
 }
